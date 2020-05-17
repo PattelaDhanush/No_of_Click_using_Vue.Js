@@ -1,0 +1,17 @@
+<html>
+<head>
+</head>
+<div id="app">
+  <v-app id="inspire">
+       
+        <v-col cols="12" sm="6">
+            <div class="my-2">
+              <v-btn color="red" fab large dark v-on:click="counter += 1">
+             </v-btn>
+            </div>
+          </v-col>
+          <p v-if="counter>0">The button above has been clicked {{ counter%10 }} times.</p>
+          <p v-else>Click the above red  button.</p>
+  </v-app>
+</div>
+</html>
